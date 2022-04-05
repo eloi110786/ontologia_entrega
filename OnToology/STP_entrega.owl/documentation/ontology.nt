@@ -1,0 +1,311 @@
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard> <http://www.w3.org/2000/01/rdf-schema#comment> "Most relevant terms:  Budget, History, Director, Season i Showrunner"@en .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard> <http://www.w3.org/2000/01/rdf-schema#comment> "Reuse of existing analogies:\nhttps://dbpedia.org/page/Star_Trek\nhttps://dbpedia.org/page/Star_Trek:_Picard"@en .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard> <http://www.w3.org/2000/01/rdf-schema#comment> "Title: Star Trek Picard\nAuthor :Eloi Arjona"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The budget is necessary to record the series" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced> <http://www.w3.org/2000/01/rdf-schema#comment> "The STP is produced by the director  and producer company" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "Seasons are written by the showrunner" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The director will tell the recording studio" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors> <http://www.w3.org/2000/01/rdf-schema#comment> "Actors of the series" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget> <http://www.w3.org/2000/01/rdf-schema#comment> "Serie budget" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> <http://www.w3.org/2000/01/rdf-schema#comment> "Information that depends on the director of the series" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras> <http://www.w3.org/2000/01/rdf-schema#comment> "Extras of the series" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information> <http://www.w3.org/2000/01/rdf-schema#comment> "General Information of Serie" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital> <http://www.w3.org/2000/01/rdf-schema#comment> "Human capital that the series" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination> <http://www.w3.org/2000/01/rdf-schema#comment> "Lighting available" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room> <http://www.w3.org/2000/01/rdf-schema#comment> "Locker_room information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up> <http://www.w3.org/2000/01/rdf-schema#comment> "Make -up information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones> <http://www.w3.org/2000/01/rdf-schema#comment> "Available microfinishes" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Number_chapters
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Number_chapters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Number_chapters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Number_chapters> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number> .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Platform
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Platform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "Platform where Amazon prime is currently broadcast" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information> <http://www.w3.org/2000/01/rdf-schema#comment> "Serie production information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company> <http://www.w3.org/2000/01/rdf-schema#comment> "Paramount" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera> <http://www.w3.org/2000/01/rdf-schema#comment> "Recording camera information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> <http://www.w3.org/2000/01/rdf-schema#comment> "Recording studio information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP> <http://www.w3.org/2000/01/rdf-schema#comment> "STP is a diminutive of Star Trek Picard" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> <http://www.w3.org/2000/01/rdf-schema#comment> "Information of the seasons" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> <http://www.w3.org/2000/01/rdf-schema#comment> "Information that depends on the showrunner of the series" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff> <http://www.w3.org/2000/01/rdf-schema#comment> "Actors and Extras" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design> <http://www.w3.org/2000/01/rdf-schema#comment> "Statge design information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard> <http://www.w3.org/2000/01/rdf-schema#comment> "Storyboard information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support> <http://www.w3.org/2000/01/rdf-schema#comment> "Technical suport team information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team> <http://www.w3.org/2000/01/rdf-schema#comment> "Technical tram information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor> <http://www.w3.org/2000/01/rdf-schema#comment> "video editor team information" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season> .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script> <http://www.w3.org/2000/01/rdf-schema#comment> "literary script information" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> "25"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> "It is the first camera" .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> "Edu" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> "40"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> "Recording manager" .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> "David" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> "30"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> "Makeup 1" .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> "Laura" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> "82"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> "Protagonist" .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> "Patrick Stewart" .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart> <http://www.w3.org/2000/01/rdf-schema#comment> "https://es.dbpedia.org/page/Patrick_Stewart" .
+# 
+# http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age> "50"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description> "Head Writer" .
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1> <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name> "Jhon" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "General class" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
