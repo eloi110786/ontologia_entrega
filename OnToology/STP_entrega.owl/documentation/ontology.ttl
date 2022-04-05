@@ -1,0 +1,341 @@
+@prefix : <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#> .
+
+<http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard> rdf:type owl:Ontology ;
+                                                                     rdfs:comment "Most relevant terms:  Budget, History, Director, Season i Showrunner"@en ,
+                                                                                  """Reuse of existing analogies:
+https://dbpedia.org/page/Star_Trek
+https://dbpedia.org/page/Star_Trek:_Picard"""@en ,
+                                                                                  """Title: Star Trek Picard
+Author :Eloi Arjona"""@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord
+:IsNecessaryRecord rdf:type owl:ObjectProperty ;
+                   rdfs:domain :STP ;
+                   rdfs:range :Budget ;
+                   rdfs:comment "The budget is necessary to record the series" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced
+:IsProduced rdf:type owl:ObjectProperty ;
+            rdfs:domain :STP ;
+            rdfs:range :Director ,
+                       :Producer_company ;
+            rdfs:comment "The STP is produced by the director  and producer company" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten
+:IsWritten rdf:type owl:ObjectProperty ;
+           rdfs:domain :Season ;
+           rdfs:range :Showrunner ;
+           rdfs:comment "Seasons are written by the showrunner" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy
+:isHiredBy rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Recording_studio ;
+           rdfs:range :Director ;
+           rdfs:comment "The director will tell the recording studio" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age
+:Age rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Actors ,
+                 :Director ,
+                 :Extras ,
+                 :Make-up ,
+                 :Showrunner ,
+                 :Technical_support ,
+                 :Video_editor ;
+     rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description
+:Description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Illumination ,
+                         :Locker_room ,
+                         :Make-up ,
+                         :Microphones ,
+                         :Producer_company ,
+                         :Recording_camera ,
+                         :Season ,
+                         :Showrunner ,
+                         :Storyboard ,
+                         :Technical_support ,
+                         :Technical_team ,
+                         :Video_editor ,
+                         :literary_script ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id
+:Id rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Illumination ,
+                :Make-up ,
+                :Microphones ,
+                :Recording_camera ,
+                :Technical_support ,
+                :Video_editor ;
+    rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name
+:Name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Director ,
+                  :Human_capital ,
+                  :Producer_company ,
+                  :Recording_studio ,
+                  :Season ,
+                  :Showrunner ,
+                  :Staff ,
+                  :Technical_team ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year
+:Year rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Year_issue ;
+      rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors
+:Actors rdf:type owl:Class ;
+        rdfs:subClassOf :Staff ;
+        rdfs:comment "Actors of the series" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget
+:Budget rdf:type owl:Class ;
+        rdfs:subClassOf :STP ;
+        rdfs:comment "Serie budget" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director
+:Director rdf:type owl:Class ;
+          rdfs:subClassOf :Porduction_information ;
+          rdfs:comment "Information that depends on the director of the series" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras
+:Extras rdf:type owl:Class ;
+        rdfs:subClassOf :Staff ;
+        rdfs:comment "Extras of the series" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information
+:General_Information rdf:type owl:Class ;
+                     rdfs:subClassOf :STP ;
+                     rdfs:comment "General Information of Serie" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital
+:Human_capital rdf:type owl:Class ;
+               rdfs:subClassOf :Recording_studio ;
+               rdfs:comment "Human capital that the series" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination
+:Illumination rdf:type owl:Class ;
+              rdfs:subClassOf :Technical_team ;
+              rdfs:comment "Lighting available" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room
+:Locker_room rdf:type owl:Class ;
+             rdfs:subClassOf :Recording_studio ;
+             owl:disjointWith :Stage_design ;
+             rdfs:comment "Locker_room information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up
+:Make-up rdf:type owl:Class ;
+         rdfs:subClassOf :Human_capital ;
+         rdfs:comment "Make -up information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones
+:Microphones rdf:type owl:Class ;
+             rdfs:subClassOf :Technical_team ;
+             rdfs:comment "Available microfinishes" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Number_chapters
+:Number_chapters rdf:type owl:Class ;
+                 rdfs:subClassOf :Season ;
+                 owl:disjointWith :Season_number .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Platform
+:Platform rdf:type owl:Class ;
+          rdfs:subClassOf :Season ;
+          rdfs:comment "Platform where Amazon prime is currently broadcast" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information
+:Porduction_information rdf:type owl:Class ;
+                        rdfs:subClassOf :Budget ;
+                        rdfs:comment "Serie production information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company
+:Producer_company rdf:type owl:Class ;
+                  rdfs:subClassOf :General_Information ;
+                  rdfs:comment "Paramount" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera
+:Recording_camera rdf:type owl:Class ;
+                  rdfs:subClassOf :Technical_team ;
+                  rdfs:comment "Recording camera information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio
+:Recording_studio rdf:type owl:Class ;
+                  rdfs:subClassOf :Director ;
+                  rdfs:comment "Recording studio information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP
+:STP rdf:type owl:Class ;
+     rdfs:comment "STP is a diminutive of Star Trek Picard" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season
+:Season rdf:type owl:Class ;
+        rdfs:subClassOf :General_Information ;
+        rdfs:comment "Information of the seasons" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number
+:Season_number rdf:type owl:Class ;
+               rdfs:subClassOf :Season .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner
+:Showrunner rdf:type owl:Class ;
+            rdfs:subClassOf :Budget ;
+            rdfs:comment "Information that depends on the showrunner of the series" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff
+:Staff rdf:type owl:Class ;
+       rdfs:subClassOf :Director ;
+       rdfs:comment "Actors and Extras" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design
+:Stage_design rdf:type owl:Class ;
+              rdfs:subClassOf :Recording_studio ;
+              rdfs:comment "Statge design information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard
+:Storyboard rdf:type owl:Class ;
+            rdfs:subClassOf :Showrunner ;
+            rdfs:comment "Storyboard information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support
+:Technical_support rdf:type owl:Class ;
+                   rdfs:subClassOf :Human_capital ;
+                   rdfs:comment "Technical suport team information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team
+:Technical_team rdf:type owl:Class ;
+                rdfs:subClassOf :Recording_studio ;
+                rdfs:comment "Technical tram information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor
+:Video_editor rdf:type owl:Class ;
+              rdfs:subClassOf :Human_capital ;
+              rdfs:comment "video editor team information" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue
+:Year_issue rdf:type owl:Class ;
+            rdfs:subClassOf :Season .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script
+:literary_script rdf:type owl:Class ;
+                 rdfs:subClassOf :Showrunner ;
+                 rdfs:comment "literary script information" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1
+:Camara1 rdf:type owl:NamedIndividual ,
+                  :Recording_camera ;
+         :isHiredBy :Dir1 ;
+         :Age "25"^^xsd:int ;
+         :Description "It is the first camera" ;
+         :Name "Edu" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1
+:Dir1 rdf:type owl:NamedIndividual ,
+               :Director ;
+      :Age "40"^^xsd:int ;
+      :Description "Recording manager" ;
+      :Name "David" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1
+:Makeup1 rdf:type owl:NamedIndividual ,
+                  :Make-up ;
+         :isHiredBy :Dir1 ;
+         :Age "30"^^xsd:int ;
+         :Description "Makeup 1" ;
+         :Name "Laura" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart
+:PatrickStewart rdf:type owl:NamedIndividual ,
+                         :Actors ;
+                :isHiredBy :Dir1 ;
+                :Age "82"^^xsd:int ;
+                :Description "Protagonist" ;
+                :Name "Patrick Stewart" ;
+                rdfs:comment "https://es.dbpedia.org/page/Patrick_Stewart" .
+
+
+###  http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1
+:Writer1 rdf:type owl:NamedIndividual ,
+                  :Showrunner ;
+         :isHiredBy :Dir1 ;
+         :Age "50"^^xsd:int ;
+         :Description "Head Writer" ;
+         :Name "Jhon" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+owl:Thing rdfs:comment "General class" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

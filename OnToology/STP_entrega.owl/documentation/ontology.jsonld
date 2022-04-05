@@ -1,0 +1,518 @@
+[ {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Most relevant terms:  Budget, History, Director, Season i Showrunner"
+  }, {
+    "@language" : "en",
+    "@value" : "Reuse of existing analogies:\nhttps://dbpedia.org/page/Star_Trek\nhttps://dbpedia.org/page/Star_Trek:_Picard"
+  }, {
+    "@language" : "en",
+    "@value" : "Title: Star Trek Picard\nAuthor :Eloi Arjona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actors of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Serie budget"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Camara1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "25"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description" : [ {
+    "@value" : "It is the first camera"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name" : [ {
+    "@value" : "Edu"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "40"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description" : [ {
+    "@value" : "Recording manager"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name" : [ {
+    "@value" : "David"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Information that depends on the director of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Extras of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "General Information of Serie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Human capital that the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lighting available"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The budget is necessary to record the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The STP is produced by the director  and producer company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Seasons are written by the showrunner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Locker_room information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Make -up information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Makeup1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "30"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description" : [ {
+    "@value" : "Makeup 1"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name" : [ {
+    "@value" : "Laura"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Available microfinishes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff"
+  }, {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Number_chapters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#PatrickStewart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "82"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description" : [ {
+    "@value" : "Protagonist"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name" : [ {
+    "@value" : "Patrick Stewart"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "https://es.dbpedia.org/page/Patrick_Stewart"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Platform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Platform where Amazon prime is currently broadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Serie production information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Paramount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Recording camera information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Recording studio information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "STP is a diminutive of Star Trek Picard"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Information of the seasons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Information that depends on the showrunner of the series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actors and Extras"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Statge design information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storyboard information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Technical suport team information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Technical tram information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "video editor team information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Writer1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "50"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description" : [ {
+    "@value" : "Head Writer"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name" : [ {
+    "@value" : "Jhon"
+  } ],
+  "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Dir1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The director will tell the recording studio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "literary script information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "General class"
+  } ]
+} ]

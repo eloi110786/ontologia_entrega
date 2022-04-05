@@ -1,0 +1,131 @@
+{
+  "@context" : {
+    "Number_chapters" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Number_chapters"
+    },
+    "Locker_room" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Locker_room"
+    },
+    "Age" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Age",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Porduction_information" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Porduction_information"
+    },
+    "Platform" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Platform"
+    },
+    "literary_script" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#literary_script"
+    },
+    "IsNecessaryRecord" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsNecessaryRecord",
+      "@type" : "@id"
+    },
+    "Human_capital" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Human_capital"
+    },
+    "Technical_support" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_support"
+    },
+    "Director" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Director"
+    },
+    "Budget" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Budget"
+    },
+    "Showrunner" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Showrunner"
+    },
+    "General_Information" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#General_Information"
+    },
+    "Extras" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Extras"
+    },
+    "isHiredBy" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#isHiredBy",
+      "@type" : "@id"
+    },
+    "IsWritten" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsWritten",
+      "@type" : "@id"
+    },
+    "Recording_studio" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_studio"
+    },
+    "Recording_camera" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Recording_camera"
+    },
+    "Season_number" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season_number"
+    },
+    "Illumination" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Illumination"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Stage_design" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Stage_design"
+    },
+    "Microphones" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Microphones"
+    },
+    "Year_issue" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year_issue"
+    },
+    "Description" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Producer_company" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Producer_company"
+    },
+    "Technical_team" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Technical_team"
+    },
+    "Actors" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Actors"
+    },
+    "Staff" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Staff"
+    },
+    "Year" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Year",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "STP" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#STP"
+    },
+    "Video_editor" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Video_editor"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Name" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "IsProduced" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#IsProduced",
+      "@type" : "@id"
+    },
+    "Storyboard" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Storyboard"
+    },
+    "Season" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Season"
+    },
+    "Id" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Id",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Make-up" : {
+      "@id" : "http://www.semanticweb.org/eloi/ontologies/2022/2/Sar_Trek_Picard#Make-up"
+    }
+  }
+}
